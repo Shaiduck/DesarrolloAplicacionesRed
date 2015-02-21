@@ -12,6 +12,7 @@ package networkscanner;
 
 import java.io.IOException;
 import java.net.InetAddress;
+import java.net.NetworkInterface;
 
 public class NetworkPing {
     
@@ -26,19 +27,35 @@ public class NetworkPing {
            InetAddress address = InetAddress.getByAddress(ip);
            if(address.isReachable(1000))
            {
-               //System.out.println("La maquina en "+address.getHostName()+" esta encendida y se puede hacer ping en " + address.getHostAddress());
-               System.out.println(address.getHostAddress());
-               System.out.println(address.getHostName());
-               System.out.println(address.getCanonicalHostName());
+               System.out.println("La maquina "+address.getHostName()+" esta encendida y se puede hacer ping en la direccion" + address.getHostAddress());
            }
-           else if(address.getHostAddress().equals(address.getHostName()))
+           else if(!address.getHostAddress().equals(address.getHostName()))
            {
-               System.out.println("La maquina en "+address+" es reconocida en una busqueda de DNS");
+               System.out.println("La maquina "+address.getHostName()+" es reconocida en una busqueda de DNS");
+               System.out.println("La direccion IP de "+address.getHostName()+" es "+address.getHostAddress());
+               conseguirMAC(InetAddress.getByName(address.getHostAddress()));
            }
            else
            {
-               System.out.println("La direccion del host" + address + "   y el nombre del host son iguales, significa que el nombre del host no se pudo resolver");
+               System.out.println("La direccion del host " + address + " y el nombre del host son iguales, significa que el nombre del host no se pudo resolver");
            }
        }
+    }
+    
+    public static void conseguirMAC(InetAddress address)
+    {
+        try
+        {
+            NetworkInterface getMac = NetworkInterface.getByInetAddress(address);
+            byte[] mac = getMac.getHardwareAddress();
+            for (int i = 0; i < mac.length ; i++)
+            {
+                String macAdd = String.format("%02X%s", mac[i], (i < mac.length - 1) ? "-" :"");
+            }
+        }
+        catch(IOException ex)
+        {
+            
+        }
     }
 }
