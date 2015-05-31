@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fivefive101.dar_app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScannerIP"
+            android:label="@string/title_activity_scanner_ip"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fivefive101.dar_app.MyActivity" />
+        </activity>
+        <activity
+            android:name=".ScannerPuertos"
+            android:label="@string/title_activity_scanner_puertos"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fivefive101.dar_app.MyActivity" />
+        </activity>
+        <activity
+            android:name=".ListaPaginas"
+            android:label="@string/title_activity_lista_paginas"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fivefive101.dar_app.MyActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fivefive101.dar_app.MyActivity" />
+        </activity>
+        <activity
+            android:name=".PruebaUDP"
+            android:label="@string/title_activity_prueba_udp"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fivefive101.dar_app.MyActivity" />
+        </activity>
+    </application>
+
+</manifest>
