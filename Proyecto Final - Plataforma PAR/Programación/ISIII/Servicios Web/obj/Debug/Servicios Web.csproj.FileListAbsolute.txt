@@ -1,0 +1,12 @@
+c:\users\freddy\documents\visual studio 2013\Projects\ISIII\Servicios Web\bin\Servicios Web.dll.config
+c:\users\freddy\documents\visual studio 2013\Projects\ISIII\Servicios Web\bin\Servicios Web.dll
+c:\users\freddy\documents\visual studio 2013\Projects\ISIII\Servicios Web\bin\Servicios Web.pdb
+c:\users\freddy\documents\visual studio 2013\Projects\ISIII\Servicios Web\obj\Debug\Servicios Web.csprojResolveAssemblyReference.cache
+c:\users\freddy\documents\visual studio 2013\Projects\ISIII\Servicios Web\obj\Debug\Servicios Web.dll
+c:\users\freddy\documents\visual studio 2013\Projects\ISIII\Servicios Web\obj\Debug\Servicios Web.pdb
+C:\Users\Shaiduck\Dropbox\DAR\Proyecto Final - Plataforma PAR\Programación\ISIII\Servicios Web\bin\Servicios Web.dll.config
+C:\Users\Shaiduck\Dropbox\DAR\Proyecto Final - Plataforma PAR\Programación\ISIII\Servicios Web\bin\Servicios Web.dll
+C:\Users\Shaiduck\Dropbox\DAR\Proyecto Final - Plataforma PAR\Programación\ISIII\Servicios Web\bin\Servicios Web.pdb
+C:\Users\Shaiduck\Dropbox\DAR\Proyecto Final - Plataforma PAR\Programación\ISIII\Servicios Web\obj\Debug\Servicios Web.csprojResolveAssemblyReference.cache
+C:\Users\Shaiduck\Dropbox\DAR\Proyecto Final - Plataforma PAR\Programación\ISIII\Servicios Web\obj\Debug\Servicios Web.dll
+C:\Users\Shaiduck\Dropbox\DAR\Proyecto Final - Plataforma PAR\Programación\ISIII\Servicios Web\obj\Debug\Servicios Web.pdb

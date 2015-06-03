@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="top|left|bottom|center|right"
+
+        android:src="@drawable/shaiduck"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/freddy2"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:id="@+id/imageView5" />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ricardo"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="@string/freddy"
+        android:id="@+id/nombre4"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/alfonso"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="@string/ricardo"
+        android:id="@+id/nombre3"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="@string/alfonso"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:id="@+id/nombre2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="@string/shaiduck"
+        android:id="@+id/nombre1"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\DAR\Plataforma PAR\bin\Plataforma PAR.dll.config
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\DAR\Plataforma PAR\bin\Plataforma PAR.dll
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\DAR\Plataforma PAR\bin\Plataforma PAR.pdb
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\DAR\Plataforma PAR\obj\Release\Plataforma PAR.csprojResolveAssemblyReference.cache
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\DAR\Plataforma PAR\obj\Release\Plataforma PAR.dll
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\DAR\Plataforma PAR\obj\Release\Plataforma PAR.pdb

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\atk</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ataque.aspx">
+      <publishTime>05/29/2015 01:35:43</publishTime>
+    </File>
+    <File Include="bin/Plataforma PAR.dll">
+      <publishTime>05/29/2015 03:03:51</publishTime>
+    </File>
+    <File Include="default.css">
+      <publishTime>05/29/2015 01:45:26</publishTime>
+    </File>
+    <File Include="fonts.css">
+      <publishTime>05/29/2015 00:58:29</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-social-webfont.eot">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-social-webfont.svg">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-social-webfont.ttf">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-social-webfont.woff">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>05/29/2015 00:58:15</publishTime>
+    </File>
+    <File Include="images/banner.jpg">
+      <publishTime>05/29/2015 01:43:21</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>05/29/2015 01:48:35</publishTime>
+    </File>
+    <File Include="ip.aspx">
+      <publishTime>05/29/2015 02:59:27</publishTime>
+    </File>
+    <File Include="license.txt">
+      <publishTime>05/29/2015 00:58:29</publishTime>
+    </File>
+    <File Include="navegador.aspx">
+      <publishTime>05/29/2015 02:16:17</publishTime>
+    </File>
+    <File Include="puertos.aspx">
+      <publishTime>05/29/2015 03:00:58</publishTime>
+    </File>
+    <File Include="Service References/RicardosService/Plataforma_PAR.RicardosService.getHTMLResponse.datasource">
+      <publishTime>05/29/2015 02:20:27</publishTime>
+    </File>
+    <File Include="Service References/RicardosService/Plataforma_PAR.RicardosService.HelloWorldResponse.datasource">
+      <publishTime>05/29/2015 02:20:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/29/2015 03:03:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
